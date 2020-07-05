@@ -1,17 +1,41 @@
 #main {
     font-family: "Arial Black", Gadget, sans-serif;
-    background-color: #f5f7f7;
+    background-color: #e3e8e8;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.title, #img-div, #list-title, h3 {
+.title, #img-div, #list-title {
     text-align: center;
+}
+
+.title {
+    background-color: #bfd3e6;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+#img-div {
+    margin-top: 16px;
 }
 
 #image {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.bottom-section {
+    background-color: #bfd3e6;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+ul {
+    padding-left: 515px;
+}
+
+#closing{
+    text-align: center;
 }

@@ -1,5 +1,17 @@
 #main {
     font-family: "Arial Black", Gadget, sans-serif;
     background-color: #f5f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title, #img-div, #list-title, h3 {
     text-align: center;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
